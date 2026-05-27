@@ -1,0 +1,82 @@
+#heading {
+  color: red;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #eee;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+.logo {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+
+  & img {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+.nav-items ul {
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+.body {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.restaurant-container {
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.restaurant-list {
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+.restaurant-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  padding: 4px;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px #0003;
+  }
+}
+
+.resto-logo {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.restaurant-card h3 {
+  margin: 0 0 5px;
+}
+
+.restaurant-card p {
+  color: #555;
+  font-size: 12px;
+}
+/*# sourceMappingURL=react-episode-4.9e4c6fd2.css.map */

@@ -1,0 +1,72 @@
+#heading {
+    color: red;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+        width: 60px;
+        height: 40px;
+    }
+}
+.nav-items ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.body {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.restaurant-container {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.restaurant-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap:wrap;
+    width: 100%;
+    padding: 20px;
+}
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 4px;
+    width: 200px;
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
+}
+.resto-logo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.restaurant-card h3 {
+    margin: 0px 0 5px;
+}
+.restaurant-card p {
+    /* margin: 0px; */
+    color: #555;
+    font-size: 12px;
+}

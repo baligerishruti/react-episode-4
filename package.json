@@ -1,0 +1,27 @@
+{
+  "name": "react-episode-4",
+  "version": "1.0.0",
+  "description": "Namaste React learning episode 4",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-cache",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baligerishruti/react-episode-4.git"
+  },
+  "author": "Shruti B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baligerishruti/react-episode-4/issues"
+  },
+  "homepage": "https://github.com/baligerishruti/react-episode-4#readme",  
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
